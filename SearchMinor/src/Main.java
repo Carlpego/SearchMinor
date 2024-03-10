@@ -28,7 +28,9 @@ public class Main {
 	 * assigns the manor value to the "minor" variable
 	 */
 	public static void searchMinor(ArrayList<Long> list) {
-		//el primer numero es el menor valor cuando el ArrayList tiene tamaño 1
+		
+		//the first number is the smallest value when the ArrayList has size 1
+		
 		if(list.size()==1)
 			System.out.println("The smallest number entered is "+list.get(0));
 		//compare all indexes of the array
